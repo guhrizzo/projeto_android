@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient( #3BD27F, #07311c);
+    background-attachment: fixed;
+    width: 1330px;
+    height: 183px;
+    padding: 10px;
+    color: #d6ffdf;
+
+    
+}
+
+header > h1{
+    font-family: Outfit;
+    text-align: center;
+}
+
+header > h2{
+    font-family: Outfit;
+    font-weight: 400;
+    text-align: center;
+    color: #d6ffdf;
+}
+
+nav > a{
+    text-decoration: none;
+    font-family: Outfit;
+    color: #d6ffdf;
+    padding: 5px;
+}
+
+a:hover{
+    text-decoration: underline solid #d6ffdf 2px;
+}
+
+a:active{
+    color: #1A5C38;
+    text-decoration: underline #1A5C38 1px solid;
+}
+
+.subtitle{
+    text-align: left;
+    font-size: 2em;
+    color: #072b28
+}
+
+h2{
+    font-family: Russo One;
+}
+
+p{
+    font-family: Outfit;
+    font-weight: 300;
+}
+
+.tgradiente{
+    background-image: linear-gradient(to left, #fff, #0C8346);
+    background-attachment: fixed;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+main{
+    background-color: rgb(234, 255, 237);
+    width: 800px;
+    height: 2220px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 1px 2px 17px 0px #06532777;
+}
+
+.image{
+    border-radius: 10px;
+    box-shadow: 4px 2px 14px rgba(0, 0, 0, 0.39);
+}
+
+iframe{
+    border-radius: 28px;
+    display:block;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 5px 4px 13px 0px #b9bbb96c;
+    width: 75%;
+}
+
+.alinhar{
+    display: inline-block;
+    font-family: Outfit;
+}
+
+ul > a{
+    text-decoration: none;
+    color: #000000bb;
+
+}
+
+ul > a:hover{
+    font-weight: bold;
+    text-decoration: underline solid 1px #110f0f;
+    
+}
+
+.preen{
+    background-color: #C5EBD6;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    padding-top: 1px;
+    margin-top: 0px;
+    height: 410px;
+}
+
+.effect{
+    background-color: #2FA866;
+    font-family: Outfit;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+footer{
+    background-color: #1A5C38;
+    padding: 5px;
+    margin-top: 10px;
+    color: #d6ffdf;
+    text-align: center;
+}
